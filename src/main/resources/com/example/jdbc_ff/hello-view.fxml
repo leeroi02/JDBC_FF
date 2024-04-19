@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jdbc_ff.HelloApplication">
+   <children>
+      <Label layoutX="171.0" layoutY="75.0" prefHeight="25.0" prefWidth="259.0" text="Welcome to ChumCode!">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="133.0" text="Username:" />
+      <Label layoutX="147.0" layoutY="179.0" text="Password:" />
+      <TextField id="tfuser" layoutX="226.0" layoutY="129.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField id="tfpassword" layoutX="226.0" layoutY="175.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label layoutX="147.0" layoutY="256.0" text="Don't have an account?" />
+      <Button id="btnLogIn" layoutX="360.0" layoutY="227.0" mnemonicParsing="false" text="Log In" />
+      <Button id="btnRegister" fx:id="btnRegister" layoutX="323.0" layoutY="289.0" mnemonicParsing="false" text="Register Here" />
+      <Text fx:id="actionTarget" fill="red" layoutX="226.0" layoutY="219.0" wrappingWidth="185.0" />
+   </children>
+</Pane>
